@@ -1,24 +1,17 @@
-# Aurora Launcher
+# Aurora Launcher V2
 
-Launcher Android natif en Kotlin + Jetpack Compose, inspiré par la sobriété et la fluidité des interfaces mobiles premium.
+V2 du launcher Android personnel, sans publicité ni télémétrie.
 
-## Fonctions V1
-- Déclaré comme véritable application HOME Android
-- Grille automatique des applications installées
-- Lancement des applications
-- Dock translucide
-- Recherche instantanée
-- Bibliothèque d'applications
-- Horloge/date
-- Pages d'accueil
-- Mode clair/sombre automatique
-- Aucun SDK publicitaire, aucun compte, aucune télémétrie
+## Nouveautés
+- Toutes les apps réparties automatiquement sur plusieurs pages horizontales
+- Indicateur de pages
+- Mode modification
+- Appui long sur une icône
+- Réorganisation persistante
+- Dock personnalisable
+- Bibliothèque et recherche
+- Disposition conservée après redémarrage et mise à jour
+- Build APK automatique avec GitHub Actions
 
-## Compiler sur GitHub
-1. Créer un dépôt GitHub.
-2. Envoyer tout le contenu de ce dossier à la racine du dépôt.
-3. Ouvrir l'onglet Actions.
-4. Lancer **Build Aurora Launcher APK**, ou pousser un commit.
-5. Télécharger l'artifact **AuroraLauncher-APK**.
-
-L'APK produit est une version debug installable pour les essais personnels.
+## GitHub
+Remplace le contenu du dépôt par ces fichiers, puis lance Actions > Build Aurora Launcher APK > Run workflow.
