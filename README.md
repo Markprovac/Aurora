@@ -1,15 +1,13 @@
-# Aurora Launcher V3
-Launcher Android personnel inspiré de l'ergonomie iPhone, sans publicité ni télémétrie.
+# Aurora Launcher V4
 
-## V3
-- fond d'écran via le sélecteur Android/Xiaomi
-- horloge redimensionnable
-- pages d'accueil et dock
-- retrait d'apps de l'accueil sans désinstallation
-- bibliothèque avec recherche et restauration
-- dossiers persistants et renommables
-- ordre, dock, dossiers, apps masquées et réglages sauvegardés
-- workflow GitHub Actions pour produire l'APK debug
+Nouveautés principales :
+- affiche le vrai fond d'écran Android/Xiaomi derrière le launcher ;
+- bouton fond d'écran dans l'accueil ;
+- appui long puis glisser-déposer des applications ;
+- déposer une application sur une autre crée automatiquement un dossier ;
+- déposer une application sur un dossier l'ajoute au dossier ;
+- suppression d'une icône de l'accueil sans désinstallation ;
+- bibliothèque pour retrouver et réajouter les applications ;
+- disposition et dossiers sauvegardés.
 
-## Compiler
-Actions > Build Aurora Launcher APK > Run workflow, puis télécharger l'artifact `AuroraLauncher-APK`.
+Le workflow GitHub inclus génère l'APK debug installable.
